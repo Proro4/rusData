@@ -1,0 +1,235 @@
+@media screen and (max-width: 1200px) {
+  .section-header {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /*Denis*/
+#carousel-left{
+  left:20px;
+}
+#carousel-right {
+  right:20px;
+
+}
+  /*end Denis*/
+
+
+  .menu>ul>li>a {
+    margin: 16px 10px;
+  }
+  .form-box-1 {
+    margin: 130px auto auto;
+    float: none;
+  }
+  .offer-box-1 {
+    width: 82%;
+    height: 316px;
+    margin-top: 40px;
+  }
+  .offer-box-2 {
+    width: 82%;
+    height: 346px;
+    margin-top: 25px;
+  }
+  .offer-desc {
+    padding: 10px;
+  }
+  .feedback-group {
+    float: left!important;
+  }
+  .feedback-group, .feedback-control {
+    width: 100%;
+  }
+  .section-box {
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    margin: 8px auto auto;
+  }
+  .section-header {
+    font-size: 24px;
+  }
+  .p-content {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 0;
+  }
+  .clear-box-15 {
+    display: none;
+  }
+  .arrow-top {
+    display: none!important;
+  }
+  .desc-1-1, .desc-1-2 {
+    font-size: 30px
+  }
+  .desc-1-3 {
+    font-size: 14px;
+  }
+  .desc-1-4 {
+    font-size: 12px;
+  }
+  .desc-1-5 {
+    font-size: 14px;
+  }
+  .desc-1-6 {
+    font-size: 16px;
+  }
+  .desc-2-1 {
+    font-size: 32px;
+  }
+  .desc-2-3 {
+    font-size: 16px;
+  }
+  .desc-2-4 {
+    font-size: 14px;
+  }
+  .desc-2-5 {
+    font-size: 15px;
+  }
+  .desc-2-6 {
+    font-size: 18px;
+  }
+  .header-container {
+    height: 100px;
+    padding: 0;
+  }
+  .menu, .menu>ul {
+    float: none;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 660px) {
+  /*Denis*/
+  .carousel-feature{
+    max-width: 80% !important;
+  }
+  .carousel-feature img{
+    width: 100%;
+  }
+  #carousel-left{
+  left:00px;
+  bottom: 40%;
+}
+#carousel-right {
+  right:00px;
+  bottom: 40%;
+
+}
+  /*End Denis*/
+}
+@media screen and (max-width: 590px) {
+  /*Denis*/
+  #carousel,.slider-box{
+  height: 300px;
+  }
+  /*End Denis*/
+  .section-header {
+    font-size: 22px;
+  }
+  .menu>ul>li>a {
+    padding: 0 7px;
+  }
+  .hidden-550 {
+    display: block;
+  }
+  .visible-550 {
+    display: none;
+  }
+  input, textarea {
+    font-size: 14px!important;
+  }
+  .button-enter {
+    font-size: 20px;
+    line-height: 20px;
+    height: 35px;
+  }
+  .contact-container {
+    display: none;
+  }
+  .contact-box-ad, .feedback-box-ad {
+    display: block;
+    width: 100%;
+    height: auto!important;
+    min-height: 283px;
+    overflow: hidden;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255)!important;
+    padding: 15px 15px 5px 15px;
+  }
+  .contact-box-ad {
+    margin: 15px 0;
+  }
+  .nav>ul>li>a {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hidden-550 {
+    display: none;
+  }
+  .visible-550 {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  /*Denis*/
+  #carousel-left{
+  left:00px;
+  bottom: 50%;
+}
+#carousel-right {
+  right:00px;
+  bottom: 50%;
+
+}
+  /*End Denis*/
+}
+@media screen and (max-width: 450px) {
+  /*Denis*/
+  #carousel-left{
+  display: none
+}
+  #carousel-right {
+  display: none
+} 
+  #carousel,.slider-box{
+  height: 250px;
+}
+  /*End Denis*/
+  .form-box-1 {
+    width: 100%;
+    margin: 105px 0 0 0;
+    padding: 15px 0;
+    height: 320px;
+  }
+  .form-box-2 {
+    width: 90.41533%;
+    padding: 15px 0;
+    height: 320px;
+    margin: 15px auto auto;
+  }
+  .login-container {
+    height: 440px;
+  }
+}
+@media screen and (max-width: 360px) {
+  /*Denis*/
+  #carousel,.slider-box{
+  height: 220px;
+}
+  /*End Denis*/
+  .links {
+    margin-left: 0;
+    width: 50%;
+  }
+  .box-2-550>a {
+    font-size: 18px;
+    padding-top: 90px;
+  }
+}
