@@ -570,7 +570,7 @@ label {
 .contact-box, .feedback-box {
   width: 100%;
   height: auto;
-  min-height: 283px;
+  min-height: 325px;
   overflow: hidden;
   border: 1px solid rgb(214, 214, 214);
   background-color: rgb(255, 255, 255);

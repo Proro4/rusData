@@ -8,3 +8,74 @@
   transition: 0.15s ease-in-out 0.2s;
   outline: 0;
 }
+
+#rondellCarousel{
+	display: none;
+} 
+
+.header-top{
+	transition:0.3s all;
+}
+.container-fluid.header-container.header-top{
+	height: 45px;
+}
+.header-top .logo{
+	margin-top:2px; 
+}
+.header-top .logo, .header-top .logo img{
+	transition:0.3s all;
+	height: 35px;
+	width: 105px;
+}
+.header-top .menu>ul>li>a{
+	margin: 10px 15px;
+}
+.header-top .menu, .menu>ul{
+	height: 50px;
+}
+.login-but{
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'calibri';
+	font-size: 18px;
+	color:#00376c;
+	cursor: pointer;
+}
+.popup-login{
+	padding-bottom: 40px;
+	min-height: 100px;
+	background: #00376c;
+	width: 200%;
+	left: -100%;
+	position: absolute;
+	display: none;
+}
+.tittle-log{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+.pop-log input{
+	margin-top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	padding: 5px;
+	font-family: 'calibri';
+	font-size: 16px;
+	color:#00376c;
+}
+.pop-log input[type='submit']{
+	border:0;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'calibri';
+	color: white;
+	background: #ff1d25;
+}
+.pop-log a{
+	margin-top: 20px;	
+	color: white;
+	text-align: center;
+}

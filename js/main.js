@@ -5,6 +5,12 @@ $(document).ready(function() {
   var clearHeight = $('.clear-header-box');
   clearHeight.height(headerHeight);
 
+  //buttom login
+  $('.login-but').on('click',function(){
+    if($('.popup-login').css('display') == 'none')
+    $('.popup-login').css('display','block');
+  else $('.popup-login').css('display','none');
+  })
 
 
   //arrow-top
@@ -12,6 +18,16 @@ $(document).ready(function() {
   var delay = 1000;
   $(document).ready(function() {
     $(window).scroll(function() {
+      if($(this).scrollTop() <= 20){
+        $('.header-container').removeClass('header-top')
+
+        console.log('1');
+      }
+      else{
+        $('.header-container').addClass('header-top')
+        console.log('2');
+
+      }
       if ($(this).scrollTop() > top_show) $('.arrow-top').fadeIn();
       else $('.arrow-top').fadeOut();
     });
@@ -104,4 +120,32 @@ $(document).ready(function() {
         setTimeout(function() {
         $('.tracker-summation-current,.tracker-summation-middle,.tracker-summation-total').css('display','none');
       },500)
+
+
+          $(function() {
+    // Create a rondell with the 'carousel' preset and set an option
+    // to disable the rondell while the lightbox is displayed
+    setTimeout(function(){
+    $('.rondell-control.rondell-shift-right').html(' ');
+    $('.rondell-control.rondell-shift-right,.rondell-control.rondell-shift-left').css({'top':'45%'});
+    $('.rondell-control.rondell-shift-right').css({'right':'25%'});
+    $('.rondell-control.rondell-shift-left').css({'left':'25%'});
+    $('.rondell-control.rondell-shift-left').html(' ');
+    if($(window).width() <= 650){
+    $('.rondell-control.rondell-shift-right').css({'right':'5%'});
+    $('.rondell-control.rondell-shift-left').css({'left':'5%'});
+    }
+  },500);
+    var winWidth = $(window).width();
+    var centerWidth = (winWidth - 150) /2;
+    $("#rondellCarousel").rondell({
+      preset: "carousel",
+      radius: {
+         x:150, y:150
+      },
+      center:{
+        left:centerWidth, top: 150
+      }
+    });
+  });
 });
