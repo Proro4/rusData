@@ -2,6 +2,12 @@
   .section-header {
     font-size: 26px;
   }
+  .copyright{
+    float: none;
+    display: block;
+    margin:30px auto 0 auto;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 1100px) {
 .contact-box, .feedback-box{
@@ -56,6 +62,9 @@
 }
 
 @media screen and (max-width: 840px) {
+  .arrow-top{
+    display: none !important;
+  }
   .pricing-box{
     display: none;
   }

@@ -34,12 +34,13 @@
 	height: 50px;
 }
 .login-but{
-	text-align: center;
-	margin-top: 15px;
-	font-family: 'calibri';
-	font-size: 18px;
-	color:#00376c;
-	cursor: pointer;
+	    text-align: center;
+    margin-top: 10px;
+    font-family: 'calibri';
+    color: #00376c;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }
 .popup-login{
 	padding-bottom: 40px;
@@ -49,6 +50,7 @@
 	left: -100%;
 	position: absolute;
 	display: none;
+	top:46px;
 }
 .tittle-log{
 	text-align: center;

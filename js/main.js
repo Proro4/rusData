@@ -39,13 +39,15 @@ $(document).ready(function() {
   });
 
   //anchor menu-click scroll
-  $('a[href^="#"]').click(function() {
-    var el = $(this).attr('href');
-    $('body').animate({
-      scrollTop: $(el).offset().top - headerHeight
-    }, 1000);
-    return false;
-  });
+   $('a[href*=#]').bind("click", function(e){
+var anchor = $(this);
+$('html, body').stop().animate({
+scrollTop: $(anchor.attr('href')).offset().top - headerHeight+25
+}, 1000);
+e.preventDefault();
+return false;
+});
+
   $(window).resize(function() {
     if ($(window).width() >= '995') {
       $('.contact-box').outerHeight(283);
@@ -68,7 +70,7 @@ $(document).ready(function() {
        var pricOffset = $('.pricing ').offset();
        var regOffset = $('.registration-container').offset();
        var conOffset = $('body').height();
-       var minHeight = 65;
+       var minHeight = 100;
        if($(this).scrollTop() > hedOffset.top-minHeight)
        {
          $('.menu>ul>li>a.active').removeClass();
