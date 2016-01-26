@@ -256,6 +256,7 @@ input {
 .login-control, .registration-control, .feedback-control, .feedback-text {
   border-radius: 0;
   font-size: 16px;
+  resize:none;
 }
 .login-control:focus, .registration-control:focus {
   border-color: rgb(0, 55, 108);

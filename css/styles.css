@@ -1,3 +1,4 @@
+a:focus{outline: none;}
 .menu>ul>li>a.active{
   color: rgb(235, 0, 5);
   border: 1px solid rgb(235, 0, 5);
