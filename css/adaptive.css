@@ -169,7 +169,7 @@
 }
 
 .slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
-  bottom: 120px;
+  bottom: 95px;
 }
    #carousel,.slider-box{
   height: 255px;
@@ -263,7 +263,7 @@
   }
   .form-box-2 {
     width: 90.41533%;
-    padding: 15px 0;
+    padding: 15px 15px;
     height: 320px;
     margin: 15px auto;
   }
