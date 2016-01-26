@@ -83,8 +83,9 @@
 .owl-carousel .offer-box-2{
 	display: none;
 	float: none;
-
+	margin-bottom: 25px;
 	text-align: center;
+	max-width: 250px;
 }
 .owl-nav{position: relative;}
 .owl-prev{

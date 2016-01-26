@@ -162,7 +162,11 @@
 }
 @media screen and (max-width: 590px) {
 
-
+.button-enter {
+    font-size: 20px;
+    line-height: 20px;
+    height: 35px;
+}
 
 .slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
   bottom: 120px;
@@ -237,6 +241,9 @@
   /*End Denis*/
 }
 @media screen and (max-width: 450px) {
+.slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
+  bottom: 100px;
+}
   /*Denis*/
   #carousel-left{
   display: none
@@ -265,6 +272,9 @@
   }
 }
 @media screen and (max-width: 360px) {
+.slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
+  bottom: 80px;
+}
   /*Denis*/
   #carousel,.slider-box{
   height: 220px;
