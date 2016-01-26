@@ -222,17 +222,17 @@ input {
   height: 490px;
 }
 .form-box-1 {
-  width: 340px;
-  height: 330px;
-  float: right;
-  margin-right: 20px;
-  margin-top: 130px;
-  background-color: rgba(255, 255, 255, 0.05);
-  box-sizing: border-box;
-  border-radius: 3px;
-  border: 2px solid rgba(255, 255, 255, .31);
-  text-align: center;
-  padding: 30px 0;
+      width: 340px;
+    height: 330px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 130px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, .31);
+    text-align: center;
+    padding: 30px 45px;
 }
 .form-header {
   text-transform: uppercase;
