@@ -148,7 +148,7 @@
   right:00px;
   bottom: 40%;
 
-} 
+}
 
   /*End Denis*/
 }
@@ -229,7 +229,7 @@
 }
   #carousel-right {
   display: none
-} 
+}
   #carousel,.slider-box{
   height: 250px;
 }
@@ -242,7 +242,7 @@
   }
   .form-box-2 {
     width: 90.41533%;
-    padding: 15px 0;
+    padding: 15px 20px;
     height: 320px;
     margin: 15px auto auto;
   }
