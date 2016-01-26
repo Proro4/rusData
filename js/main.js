@@ -124,30 +124,27 @@ return false;
       },500)
 
 
-          $(function() {
-    // Create a rondell with the 'carousel' preset and set an option
-    // to disable the rondell while the lightbox is displayed
-    setTimeout(function(){
-    $('.rondell-control.rondell-shift-right').html(' ');
-    $('.rondell-control.rondell-shift-right,.rondell-control.rondell-shift-left').css({'top':'45%'});
-    $('.rondell-control.rondell-shift-right').css({'right':'25%'});
-    $('.rondell-control.rondell-shift-left').css({'left':'25%'});
-    $('.rondell-control.rondell-shift-left').html(' ');
-    if($(window).width() <= 650){
-    $('.rondell-control.rondell-shift-right').css({'right':'5%'});
-    $('.rondell-control.rondell-shift-left').css({'left':'5%'});
+     $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({ 
+            center:true,
+           loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        900:{
+            items:3,
+            nav:false
+        }
     }
-  },500);
-    var winWidth = $(window).width();
-    var centerWidth = (winWidth - 150) /2;
-    $("#rondellCarousel").rondell({
-      preset: "carousel",
-      radius: {
-         x:150, y:150
-      },
-      center:{
-        left:centerWidth, top: 150
-      }
-    });
-  });
+        });
+
+      });
 });

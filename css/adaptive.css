@@ -62,17 +62,25 @@
 }
 
 @media screen and (max-width: 840px) {
-  .arrow-top{
+  .arrow-top,.carousel-container{
     display: none !important;
   }
   .pricing-box{
     display: none;
   }
-  .pricing #rondellCarousel{
+  .owl-carousel .offer-box-2,.slider-box .owl-carousel div{
   display: block !important;
 }
+.slider-box{height: 300px;}
 }
+
 @media screen and (max-width: 768px) {
+.slider-box{height: 250px;}
+
+.slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
+  bottom: 70px;
+}
+}
 
 .container-fluid.header-container.header-top{
   height: 90px;
@@ -148,13 +156,19 @@
   right:00px;
   bottom: 40%;
 
-}
+} 
 
   /*End Denis*/
 }
 @media screen and (max-width: 590px) {
+
+
+
+.slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
+  bottom: 120px;
+}
    #carousel,.slider-box{
-  height: 300px;
+  height: 350px;
   }
   /*End Denis*/
   .section-header {
@@ -229,7 +243,7 @@
 }
   #carousel-right {
   display: none
-}
+} 
   #carousel,.slider-box{
   height: 250px;
 }
@@ -242,7 +256,7 @@
   }
   .form-box-2 {
     width: 90.41533%;
-    padding: 15px 20px;
+    padding: 15px 0;
     height: 320px;
     margin: 15px auto auto;
   }

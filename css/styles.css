@@ -9,10 +9,6 @@
   outline: 0;
 }
 
-#rondellCarousel{
-	display: none;
-} 
-
 .header-top{
 	transition:0.3s all;
 }
@@ -80,4 +76,43 @@
 	margin-top: 20px;	
 	color: white;
 	text-align: center;
+}
+.pricing .owl-carousel{
+	display: none;
+}
+.owl-carousel .offer-box-2{
+	display: none;
+	float: none;
+
+	text-align: center;
+}
+.owl-nav{position: relative;}
+.owl-prev{
+	height: 38px;
+	width: 38px;
+	background: url(../img/navigation-previous.png)no-repeat;
+	color:transparent;
+	position: absolute;
+	left: 15px;
+	display: inline-block;
+	bottom: 150px;
+}
+.owl-next{
+	display: inline-block;
+	right: 10px;
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	background: url(../img/navigation-next.png)no-repeat;
+	color:transparent;
+	bottom: 150px;
+}
+.slider-box .owl-carousel div{
+	display: none;
+}
+.slider-box .owl-carousel{
+	margin-top: 35px;
+}
+.slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
+	bottom: 100px;
 }
