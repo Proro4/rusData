@@ -110,6 +110,12 @@
 }
 .slider-box .owl-carousel div{
 	display: none;
+	text-align: center;
+}
+.slider-box .owl-carousel div img{
+	max-width: 350px;
+	margin: 0 auto;	
+
 }
 .slider-box .owl-carousel{
 	margin-top: 35px;
