@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+$('.a-menu').on('click',function(){
+  $('.btn-group.visible-550.col-xs-6.no-padding').removeClass('open');
+})
+
 setTimeout(function(){
   $('.tracker-individual-container li').on('click', function(){
     var numbClick = $(this).find('div').text()
@@ -11,7 +16,6 @@ setTimeout(function(){
        function timeSet(){
          $('#carousel-left').trigger('click');
         b++;
-        console.log(b)
          if(b == thisSlide){
             clearTimeout(intervalID)
             b = 0;
@@ -25,7 +29,6 @@ if(nextSlide > 0){
      var b = 0;
        function timeSet(){
         b++;
-        console.log(b)
          $('#carousel-right').trigger('click');
          if(b == thisSlide){
             clearTimeout(intervalID)
