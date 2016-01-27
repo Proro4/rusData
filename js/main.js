@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log($('.carousel-feature').length);
 setTimeout(function(){
   $('.tracker-individual-container li').on('click', function(){
     var numbClick = $(this).find('div').text()
@@ -7,6 +6,7 @@ setTimeout(function(){
     var nextSlide =  numbClick - numbSlider;
 
     if(nextSlide < 0){
+      alert('1');
      var thisSlide = -(nextSlide)
      var b = 0;
        function timeSet(){
@@ -22,6 +22,7 @@ setTimeout(function(){
     }
 
 if(nextSlide > 0){
+      alert('2');
      var thisSlide = nextSlide
      var b = 0;
        function timeSet(){
@@ -36,7 +37,7 @@ if(nextSlide > 0){
        var intervalID = setInterval(timeSet,1100);
     }
     
-  });})
+  });},500)
 
 
   var heightSlider = $('.owl-slider').height();
