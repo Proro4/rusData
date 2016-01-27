@@ -6,7 +6,6 @@ setTimeout(function(){
     var nextSlide =  numbClick - numbSlider;
 
     if(nextSlide < 0){
-      alert('1');
      var thisSlide = -(nextSlide)
      var b = 0;
        function timeSet(){
@@ -22,7 +21,6 @@ setTimeout(function(){
     }
 
 if(nextSlide > 0){
-      alert('2');
      var thisSlide = nextSlide
      var b = 0;
        function timeSet(){
