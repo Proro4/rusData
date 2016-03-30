@@ -15,6 +15,12 @@
 }
 }
 @media screen and (max-width: 992px) {
+  form.setting table input[type="text"], form.setting table input[type="email"], form.setting table input[type="password"]{
+    width: 200px;
+  }
+  form.setting table {
+    margin-left: 0px;
+}
   .arrow-top{
   right: 0;
   bottom: 0;
@@ -75,7 +81,27 @@
 }
 
 @media screen and (max-width: 768px) {
-.slider-box{height: 250px;}
+  .side-bar{
+    bottom: 0;
+    top: 100px;
+    position: fixed;
+    z-index: 100;
+    width: 250px;
+    left: -250px;
+    transition:0.3s all;
+  }
+.arrow-sb{
+display: block;}
+  .p-stats.fl{
+    float: none;
+    padding: 0px 15px;
+    display: inline-block;
+  }
+  .profile-stats.fr{
+    float: none;
+    text-align: center;
+  }
+  .slider-box{height: 250px;}
 
 .slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
   bottom: 70px;
@@ -161,6 +187,13 @@
   /*End Denis*/
 }
 @media screen and (max-width: 590px) {
+  .sett-name{
+    width: 200px;
+    padding-right: 15px;
+  }
+  form.setting label{
+    font-size: 14px;
+  }
 
 .button-enter {
     font-size: 20px;
@@ -217,6 +250,18 @@
   }
 }
 @media screen and (max-width: 550px) {
+  form.setting label {
+    font-size: 12px;
+}
+.sett-name {
+    width:125px;
+    padding-right: 15px;
+}
+  form.setting table input[type="text"], form.setting table input[type="email"], form.setting table input[type="password"]{
+    width: 180px;
+  }
+
+
   .container-fluid.login-container{
     display: none;
   }
@@ -228,17 +273,53 @@
   }
 }
 @media screen and (max-width: 500px) {
-  /*Denis*/
+
+  form.setting td{
+    width: 125px;
+  }
+  form.setting table input[type="text"], form.setting table input[type="email"], form.setting table input[type="password"]{
+    width: 125px;
+  }
+  .sett-input button{
+    font-size: 12px;
+  }
+  .check-email{
+    display: none;
+  }
+  td.sett-input input[type="checkbox"]{
+    margin-right: 10px;
+  }
+  
+.save-adaptive{
+  display: block;
+}
+.save-destop{
+  display: none;
+}
+.invoices-block table .name-invoices{
+      font-size: 14px;
+}
+.invoices-block table td{
+  font-size: 12px;
+}
+
+
+
+
+
   #carousel-left{
   left:00px;
   bottom: 50%;
+}
+.p-stats.fl{
+  padding:0 5px;
+  font-size: 20px;
 }
 #carousel-right {
   right:00px;
   bottom: 50%;
 
 }
-  /*End Denis*/
 }
 @media screen and (max-width: 450px) {
 .slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
