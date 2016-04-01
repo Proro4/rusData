@@ -481,3 +481,88 @@ td.sett-input input[type="checkbox"].check-active:after{
 	color: black;
 	height: 50px;
 }
+.dz-default.dz-message span{
+	font-size: 18px;
+	color: #00376c;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.drop .dropzone{
+	border:1px solid #d6d6d6;
+}
+.drop .dropzone a{
+	background: #ff1d25;
+	color: white;
+	padding: 7px 20px;
+	font-size: 18px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.drop .dropzone a:hover{
+	background: #cd1219;
+
+}
+.drop .dropzone .dz-message{
+    margin: 0;
+    padding: 2em 0;
+    border: 1px dashed #3f668e;
+}
+.dashboad-project{
+    border: 1px solid #d6d6d6;
+	background: white;
+	min-height: 100px;
+	margin-top: 20px;
+	position: relative;
+}
+.dash-proj-title{
+	padding-top: 5px;
+	color: #0c0c0c;
+	font-size: 22px;
+	text-transform: uppercase;
+	position: relative;
+	padding-right: 15px;
+	border-bottom: 1px solid #d6d6d6;
+	margin: 0 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+.dash-proj-title:after{
+	content: '';
+	height: 20px;
+	width: 4px;
+	position: absolute;
+	left: 0px;
+	top: 10px;	
+	background: #ff2f33;
+}
+
+.dash-proj-title span{
+	font-size: 18px;
+	color: #00376c;
+	text-transform: none;
+	    display: inline-block;
+    max-width: 500px;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     vertical-align: text-bottom;
+}
+.exit-project{
+	background: url(../img/exit-p.png)no-repeat center;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right: 0px;
+	top: 6px;
+	cursor: pointer;
+}
+.hide-project{
+	background: url(../img/hide-p.png)no-repeat center;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right: 30px;
+	top: 6px;
+	cursor: pointer;
+	transition:0.3s all;
+}

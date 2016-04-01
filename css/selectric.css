@@ -194,6 +194,10 @@
           user-select: none;
   background: none;
   color: #444;
+  min-height: 2px;
+  height: 2px;
+  padding: 2px;
+  background: #efefef;
 }
 .selectric-items .selectric-group.disabled li {
   filter: alpha(opacity=100);
@@ -201,4 +205,5 @@
 }
 .selectric-items .selectric-group li {
   padding-left: 25px;
+  border-bottom: 0px;
 }

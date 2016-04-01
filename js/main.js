@@ -1,4 +1,26 @@
 $(document).ready(function() {
+  //exit project
+  $('.exit-project').on('click',function(){
+    $(this).closest('.dashboad-project').css('display','none');
+  })
+
+  //hide-project
+  $('.hide-proj').append('<div class="hide-project"></div><div class="hide-project"></div>');
+   $('.hide-proj').on('click',function(){
+    if($(this).hasClass('hideProj')){
+          $(this).find('.hide-project:first').css('transform','rotate(0deg)');
+          $(this).removeClass('hideProj');
+          $(this).closest('.dashboad-project').css({'height':'auto','overflow':'inhernit','min-height':'150px'});
+      }else{
+          $(this).find('.hide-project:first').css('transform','rotate(90deg)');
+          $(this).addClass('hideProj');
+          $(this).closest('.dashboad-project').css({'height':'37px','overflow':'hidden','min-height':'43px'});
+      }
+   })
+  //dropzone
+  $('.dz-default.dz-message span').html('Drop files here to attach them');
+  $('.dz-default.dz-message').append('<br><a href="#">select files</a>');
+
 
   //checkbox begin
     $('input[type="checkbox"]').on('click',function(){
