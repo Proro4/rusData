@@ -1,6 +1,9 @@
 $(document).ready(function() {
+  //Chart active
+
+
   //exit project
-  $('.exit-project').on('click',function(){
+  $('.exit-project,.buts-proj input[type="button"]').on('click',function(){
     $(this).closest('.dashboad-project').css('display','none');
   })
 
@@ -37,13 +40,13 @@ $(document).ready(function() {
 
 //left menu
 
-  $('.arrow-sb').on('click',function(){
+  $('.menu-m').on('click',function(){
     if($('.side-bar').css('left') != '0px'){
       $('.side-bar').css({'left':'0'});
-      $(this).css('transform','rotate(180deg)')
+      $('.menu-m').css('background','url(img/menu-h.svg)no-repeat center');
     }else{
       $('.side-bar').css({'left':'-250px'});
-      $(this).css('transform','rotate(0deg)')
+      $('.menu-m').css('background','url(img/menu.svg)no-repeat center');
     }
   })
 

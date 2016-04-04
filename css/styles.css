@@ -459,11 +459,17 @@ td.sett-input input[type="checkbox"].check-active:after{
 .invoices-block{
 	width: 100%;
 	min-height:150px; 
-}
-.invoices-block{
 	margin-top: 20px;
 	background: white;
 	border:1px solid #d6d6d6;
+	overflow-y:auto;
+}
+.invoices-block::-webkit-scrollbar {
+    opacity: 0;
+}
+
+.invoices-block-h{
+	min-width: 460px;
 }
 .invoices-block table{
 	width: 100%;
@@ -510,9 +516,10 @@ td.sett-input input[type="checkbox"].check-active:after{
 .dashboad-project{
     border: 1px solid #d6d6d6;
 	background: white;
-	min-height: 100px;
+	min-height: 150px;
 	margin-top: 20px;
 	position: relative;
+	overflow-y:auto;
 }
 .dash-proj-title{
 	padding-top: 5px;
@@ -565,4 +572,166 @@ td.sett-input input[type="checkbox"].check-active:after{
 	top: 6px;
 	cursor: pointer;
 	transition:0.3s all;
+}
+.proj-date{
+	margin: 25px;
+	float: left;
+}
+.proj-date tr td{
+	font-family: 'calibri';
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.proj-date tr td:first-child{
+	color: #0c0c0c;
+}
+
+.proj-date tr td:last-child{
+	color: #00376c;
+	padding-left: 10px;
+}
+.buts-proj{
+	padding: 15px 0px;
+	margin: 0 15px;
+	border-top: 1px solid #d6d6d6;
+}
+.buts-proj input{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'calibri';
+	display: inline-block;
+	border: 1px solid #d6d6d6;
+	background: #efefef;
+	padding: 1px 15px;
+}
+.buts-proj input[type="submit"]{
+	color: #ff1d25;
+}
+.buts-proj input[type="file"]{
+	border:0;
+	position: relative;
+	overflow: hidden;
+	width: 112px;    
+	vertical-align: bottom;
+	margin-left: 15px;
+}
+
+.buts-proj input[type="file"]:after{
+	content: 'download';
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'calibri';
+	display: inline-block;
+	border: 1px solid #d6d6d6;
+	background: #efefef;
+	padding: 1px 15px;
+	color: #00376c;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+.buts-proj input[type="button"]{
+	background: #ff1d25;
+	color: white;
+	border:0;
+	float: right;
+	margin:5px;
+}
+.graph{
+	display: inline-block;
+	margin: 20px 15px 15px 0;
+	float: right;
+}
+.doughnut-graph{
+	height: 225px;
+	width: 225px;
+	display: inline-block;
+	box-sizing:border-box;
+	padding: 15px;
+	float: left;
+	border:1px solid #d6d6d6;
+	position: relative;
+}
+.doughnut-graph p{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	text-align: center;
+	box-sizing:border-box;
+	padding-top: 25px;
+	color: #00376c;
+	font-size: 14px;
+}
+
+.doughnut-graph p span{
+	display: block;
+	color: #ff1d25;
+	font-size: 22px;
+}
+.grafh-inform{
+	background: #00376c;
+	height: 225px;
+	width: 200px;	
+	float: left;
+	border-radius: 0 4px 4px 0;
+}
+.grafh-inform ul li{
+	color: white;
+	height: 55px;
+	line-height: 55px;
+	margin: 0 10px;
+	border-bottom:1px solid #3f668e;
+}
+.grafh-inform ul li:last-child{
+	border-bottom: 0;
+}
+
+.grafh-inform ul li p,
+.grafh-inform ul li span{
+	display: inline-block;
+	text-align: center;
+}
+.grafh-inform ul li p{
+	width: 75px;
+	font-size: 14px;
+}
+.grafh-inform ul li span{
+	font-size: 22px;
+	color: #91c9ff;
+	width: 65px;
+	text-align: right;
+}
+.grafh-inform ul li sup{
+	font-size: 12px;
+	color: #5d93c9;
+	margin-left:10px;
+}
+.dashboad-project-h{
+	min-width: 465px;
+	position: relative;
+}
+.dashboad-project::-webkit-scrollbar {
+    opacity: 0;
+}
+.profile-stats-m{
+	margin-top: 15px;
+	border-top: 1px solid #d6d6d6;
+	padding-top: 15px;
+	display: none;
+}
+.menu-m{
+	background: url(../img/menu.svg)no-repeat center;
+	height:40px;
+	width:40px;
+	position: absolute;
+	left: 15px;
+	top: 50px;
+	cursor: pointer;
+	transfrom:0.3s all;
+	display: none;
 }

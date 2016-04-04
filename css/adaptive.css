@@ -71,9 +71,6 @@
   .arrow-top,.carousel-container{
     display: none !important;
   }
-  .pricing-box{
-    display: none;
-  }
   .owl-carousel .offer-box-2,.slider-box .owl-carousel div{
   display: block !important;
 }
@@ -81,6 +78,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .pricing-box{
+    display: none;
+  }
+.menu-m{
+  display: block;
+}
+
+.profile-stats{
+  display: none;
+}
+.profile-stats-m{
+  display: block;
+}
   .side-bar{
     bottom: 0;
     top: 100px;
@@ -322,6 +332,14 @@ display: block;}
 }
 }
 @media screen and (max-width: 450px) {
+  .sorting a{
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .selectric-sorting-sel{
+    margin-left: 5%;
+  }
 .slider-box .owl-carousel .owl-prev, .slider-box .owl-carousel .owl-next{
   bottom: 100px;
 }
